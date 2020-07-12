@@ -13,7 +13,7 @@ for name, axis in zip("xy", (ax.xaxis, ax.yaxis)):
 for i in range(3):
     for j in range(2):
         plt.text(i + 0.5, j + 0.5, f"cell [{i}, {j}]", ha="center", va="center")
-plt.xlabel("x-axis")
-plt.ylabel("y-axis")
+plt.xlabel("x-axis $\\longrightarrow$")
+plt.ylabel("y-axis $\\longrightarrow$")
 plt.title("histogram layout")
 plt.savefig("histogram_layout.svg")
