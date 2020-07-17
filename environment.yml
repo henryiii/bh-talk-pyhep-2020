@@ -17,4 +17,4 @@ dependencies:
     - mplhep >=0.1.27
     - uproot4
     - particle
-    - skhep_testdata
+    - scikit-hep-testdata
