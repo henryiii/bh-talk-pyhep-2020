@@ -1,0 +1,19 @@
+name: bh-talk
+channels:
+  - conda-forge
+dependencies:
+  - python ==3.8
+  - pip
+  - pandas
+  - matplotlib
+  - boost-histogram >=0.10.0
+  - jupyterlab >=2
+  - uncertainties
+  - pillow
+  - black  # formatting only
+  - isort  # formatting only
+  - pip:
+    - hist >=2.0.0a5
+    - mplhep >=0.1.27
+    - uproot4
+    - particle
